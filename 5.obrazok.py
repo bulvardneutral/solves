@@ -1,4 +1,44 @@
 
+
+import tkinter as tk
+from PIL import Image, ImageTk
+image = Image.open("bmp.bmp.bmp")
+root=tk.Tk()
+
+file=open("TTT29.txt", "w")
+file.write(str(image.width))
+file.write(" ")
+file.write(str(image.height))
+file.write("\n")
+
+for i in range(image.height):
+    for j in range(image.width):
+        pxl=image.getpixel((j, i))
+        print(pxl)
+        if pxl>=1:
+            file.write("g")
+        else:
+            file.write("p")
+    file.write("\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import tkinter as tk 
 
 root = tk.Tk()
