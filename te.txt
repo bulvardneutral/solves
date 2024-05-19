@@ -1,0 +1,703 @@
+INF TEORIA
+ ZADANIE 1    KARAOKE
+
+
+
+A) Do aplikácie Pitivi som vložil audio súbor a potom cez možnosť „Vytvoriť klip s titulmi“ som následne pridal text. (Vzhľadom na to, že mi to cez Pitivi nešlo exportovať spravil som to isté v aplikácií Shotcut). Výsledný súbor zaberá skoro 3x toľko miesta ako pôvodné súbory dokopy.
+
+B) Môžeme vybrať iný typ súboru/znížiť kvalitu/znížiť počet snímkov za sekundu.
+
+C) Nepredávať toto video/ získať súhlas autora/ skontrolovať či moje použite je v súlade
+s podmienkami licencie danej pesničky.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 2 - Univerzálny formát pre otvorenie…
+
+
+
+
+
+1,Údaje sú zvyčajne pripravené v tabuľkovom formáte, kde každý riadok predstavuje jeden záznam a stĺpce predstavujú rôzne atribúty alebo premenné. Tento formát umožňuje ľahkú čitateľnosť a zrozumiteľnosť dát.
+2. Univerzálny formát,, je CSV (Comma-Separated Values) V tomto formáte sú dáta oddelené čiarkami, čo umožňuje jednoduchú manipuláciu s nimi pomocou rôznych programov.
+V súbore "uloha_2_Pridane_2.txt" môžeme vidieť príklad použitia CSV formátu, kde sú údaje oddelené čiarkami.
+3, Dve logické časti tvoriace štruktúru usporiadania údajov sú hlavička a telo. Hlavička obsahuje názvy jednotlivých stĺpcov alebo atribútov, zatiaľ čo telo obsahuje samotné dáta.
+Prostredia, v ktorých uskutočňujeme základné štatistické spracovanie údajov, môžu byť napríklad štatistické programy ako R, Python s knižnicou pandas, alebo tabuľkové procesory ako Microsoft Excel.
+
+ZADANIE 3 Počítačová sieť. Mailová komunikácia.
+
+Podľa čoho viete, že školské zariadenie, pri ktorom obvykle pracujete, je pripojené do
+počítačovej siete? (aspoň 2 argumenty zdôvodnenia) V prípade kladnej odpovede uveďte
+hardvérové prvky (sieťové uzly, segmenty), ktoré sú v našej školskej sieti využívané.
+
+• Navrhnite alebo uveďte pravidlá vo vzťahu k vyplneniu i) adresy prijímateľa; ii) predmetu
+správy; iii) tela správy; iv) prílohy.
+• Ako rozdeľujeme počítačové siete podľa topológie (fyzickej)? Svoju odpoveď dajte do
+súvislosti s nasledujúcimi obrázkami. Akej podlieha školská počítačová sieť?
+
+
+
+Keďže žiaci nesedia vždy pri tom istom počítači, je potrebné, aby sa súbory zdieľali medzi všetkými počítačmi čo sa dá vďaka počítačovej sieti. Taktiež nedáva zmysel nakupovať hardvér pre každý jeden počítač keď sa cez sieť dá hardvér zdieľať. Hardvérové prvky: prepínač, smerovač, samotné počítače
+Interakcia medzi komponentami
+Prepínače: Počítače a ďalšie zariadenia v rámci jednej LAN sú pripojené k prepínačom. Prepínač zabezpečuje, že dáta odoslané z jedného zariadenia sú smerované priamo k cieľovému zariadeniu v tej istej sieti.
+Smerovače: Keď zariadenie potrebuje komunikovať s inou sieťou (napríklad s internetom), dáta sú smerované cez smerovač. Smerovač identifikuje správny cieľ v inej sieti a zaistí doručenie dát.
+Počítače: Počítače posielajú a prijímajú dáta cez sieť. V rámci LAN komunikujú cez prepínač a cez internet alebo iné WAN siete cez smerovač.
+Adresa prijímateľa musí byť uvedená v poli "To:", predmet správy by mal jasne popisovať obsah, telo správy by malo byť jasné, stručné a zdvorilé a prílohy by mali byť jasne označené a priložené.
+Zbernicová (prvý obrázok) - ak sú počítače zapojené za sebou pozdĺž jediného kábla
+Hviezdová (druhý obrázok) - pozostáva z jedného centrálneho uzla, ktorý môže byť tvorený prepínačom, rozbočovačom, smerovačom alebo počítačom, ktorý sa správa ako niektoré z týchto zariadení. Naša školská sieť používa túto topológiu 
+Kruhová (tretí obrázok(ring bus)) - jeden uzol pripojený k ďalším dvom uzlom tak, že vytvoria kruh
+
+ZADANIE 4 Interpréter a prekladač. 
+Nasledujúci grafický výstup vznikol v jednom známom detskom programovacom prostredí Výkres má šírku 320 a výšku 240 pixlov. Kresliť sa začalo z jeho stredu, ktorý má súradnice [0, 0].  Polomer kruhov je 30 pixlov. Stred výkresu je zastúpený korytnačkou Žofkou. Obrázok je  nasledovný 
+
+• Zapíšte a zrealizujte zdrojový text vo vyššom programovacom jazyku (Python, Freepascal) v príslušnom IDE? (stačí náznak riešenia) 
+• Aký je rozdiel medzi interpréterom a prekladačom? Ktorý z vyšších jazykov (Imagine LOGO,  Python, Freepascal), resp. IDE/IDLE prostredie pre prácu v nich má zabudovaný/é interpréter  a ktorý prekladač?
+• Uveďte aspoň 1 ďalší príklad prostredia, kde programujeme zdrojový text, a jeho jednotlivé  príkazy sa môžu dať okamžite vykonávať prostredníctvom interprétera do požadovaného  tvaru výsledkov. 
+2
+Interpréter postupne prekladá a vykonáva zdrojový kód počas behu programu. Preklad a vykonávanie kódu prebieha postupne, čo umožňuje okamžitú spätnú väzbu a interaktivitu s používateľom. Pri chybách sa vykonávanie kódu zastaví a je možné ich opraviť priamo v kóde.
+Prekladač prekladá celý zdrojový kód do strojového kódu vopred, čo znamená, že vykonávanie kódu nastáva až po dokončení prekladu. Tento proces vytvára samostatný spustiteľný súbor, ktorý sa môže spustiť nezávisle od zdrojového kódu
+Imagine LOGO:- Interpréter: Imagine LOGO je interpretovaný jazyk
+Python: Interpréter: Python je tiež interpretovaný jazyk a jeho IDE majú zabudovaný interpréter
+Freepascal: Prekladač: Pre Freepascal sa používa kompilačný prekladač, ktorý prekladá zdrojový kód do strojového kódu, ktorý sa potom spustí ako samostatný program.
+3
+VS Code, Pycharm…
+
+
+ZADANIE 5 Nemocnica. 
+• Máme vstupný súbor: „nemocnica.txt“, ktorý popisuje čas v tvare hh:mm:ss-počet Liekov,  ktoré vydal lekárnik. Vydanie 1 lieku trvá 20 sekúnd. Koľko ľudí čakalo v lekárni? 
+
+
+
+8:20:10 - 2 - odchadza 8:20:50
+8:20:30 - 3 - (musí čakať) odchádza 8:21:50.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 6 Z textu obrázok.
+• Anička z čierno-bieleho obrázka pripravila textový súbor („text-obrazok-1.odt“ alebo „text-
+obrazok-1.doc“). V texte sú všetky biele body pôvodného obrázka zapísané čiarkou a všetky
+čierne body (pôvodného obrázka) bodkou.
+• Navrhnite, prípadne zrealizujte postup, ktorý nám pomôže rozpoznať obrázok.
+• Ako zistíme rozmery pôvodného obrázka?
+• Diskutujte, ktorý súbor pravdepodobne zaberá viac miesta textový obrázok alebo pôvodný
+grafický obrázok?
+• Ako môžeme tieto údaje skomprimovať?
+• Ako ich môžeme poslať inej osobe a zároveň informáciu pri prenose utajiť?
+
+1.      Môžeme upraviť dĺžku a výšku riadku v textovom editore a zmenšiť medzery medzi riadkami, ak obrázok stále nebude rozpoznateľný môžeme načítať každý jeden znak a na daný pixel dať farbu, ktorú reprezentuje.
+2.      Počet riadkov je výška a počet znakov v riadku je šírka obrázku.
+3.      Keďže na bielu a čiernu farbu nám stačí jeden bit, zaberať bude viac textový súbor, keďže na zobrazenie jedného znaku treba aspoň jeden bajt Unicode kódu.
+4.  	Môžeme zo súborov spravit archív(zip), prípadne PDF súbor.
+5.  	Môžeme vytvoriť masku a daný obrázok zakódovať, napríklad napíšeme počet znakov a farbu, ktorú treba použiť napr. (1. riadok = 97č, 1b, 6č, 1b, 5b,1b,  12č...)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 7 Kompresia obrázka. 
+• Máme vstupný textový súbor zo znakov 0 a 1 - „Obr1.txt“. Chceme ho preklopiť do tvaru  podľa ukážky – vypíšte počet opakovaní za sebou idúcich rovnakých znakov (kompresia). • Naprogramujte takúto kompresiu obrázka. 
+• V diskusii porovnajte veľkosť pôvodného a komprimovaného obrázka. 
+• Ako závisí veľkosť kompresie od štruktúry kresby? 
+
+000010000
+000111000
+001111100
+011111110
+111111111
+Závislosť veľkosti kompresie od štruktúry kresby
+Veľkosť komprimovaného súboru veľmi závisí na štruktúre pôvodného súboru. Ak sú v pôvodnom súbore dlhé sekvencie rovnakých znakov, RLE kompresia bude veľmi efektívna. Napríklad, ak máme 1000 po sebe idúcich znakov "0", RLE to skomprimuje na "10000". Na druhej strane, ak je súbor veľmi variabilný (napríklad striedanie "0" a "1"), kompresia nebude tak efektívna a môže dokonca mierne zväčšiť veľkosť súboru, pretože každá dvojica znakov sa bude kódovať ako "1X1Y".
+AAAAAA = 6A  Takže efektivita kompresie RLE je priamo úmerná dĺžke opakujúcich sa sekvencií rovnakých znakov v pôvodnom súbore. V ideálnom prípade, pre dlhé sekvencie rovnakých znakov, môže kompresia výrazne zmenšiť veľkosť súboru. Pre veľmi variabilné dáta však môže byť výsledná veľkosť súboru dokonca väčšia ako pôvodná.
+
+Kompresia dát je proces, pri ktorom sa spracúvajú dáta, pričom cieľom spracovania je, aby bolo množstvo výstupných dát čo najmenšie. V praxi sa snažíme o čo najmenšiu časovú náročnosť. Obyčajne sa aplikuje s účelom zmenšenia dátového toku pri prenose alebo pamäťového priestoru pri ukladaní informácie. Podľa výslednej informácie sa kompresia delí na 2 základné druhy: Definícia 2 Stratová kompresia (tzv. lossy) je kompresia, pri ktorej sú niektoré informácie nenávratne stratené (nedajú sa zrekonštruovať). Výsledný signál po dekompresii nie je totožný s pôvodným signálom, ale je mu do istej miery podobný. Veľkou výhodou je významné zmenšenie súboru. 
+
+Stratová kompresia sa využíva hlavne pri spracovaní obrazu, videa a zvuku (pri ich vnímaní si chýbajúce údaje človek nevšimne, resp. si ich vie domyslieť). Definícia 3 Bezstratová kompresia (tzv. lossless) je kompresia, po použití ktorej je možné pôvodný signál obnoviť bez akejkoľvek straty informácie. Používa sa v prípadoch, keď je zachovanie pôvod
+
+
+
+ZADANIE 8 Titulky
+• Máme anglické titulky v súbore „titulky.srt“. Prvé číslo udáva čas v milisekundách, kedy sa
+má titulok zobraziť a druhé číslo udáva čas, kedy sa má ukončiť jeho zobrazovanie. Za
+číslami je text samotného titulku.
+
+V textovom súbore „sk.txt“ sú príslušné titulky v slovenskom jazyku, ale bez časovej
+informácie. Vytvorte funkčné titulky v slovenskom jazyku.
+
+K mnohým filmom nájdete rôzne jazykové verzie titulkov aj na internete. Diskutujte o
+počítačovom pirátstve a jeho súvise s týmto javom.
+
+1,
+ Vypočítam rozdiel medzi konečným časom a začiatočným.
+Vypočítam dĺžku veršov na daný čas a rozdiel časov vydelím dĺžkou veršov a následne vynásobím dĺžkou veršov v slovenskom jazyku. Automatizovať to viem cez Python.
+a=len("- Check the circuit - All operating, sir.")
+b=len(“Preverte obvody.  Všetky funkčné / pane.")
+c=100673
+d=58739
+e= d - c
+f=int(d+(e/a)*b)
+print(f)
+a = len("- Check the circuit - All operating, sir.")
+b = len("Preverte obvody. Všetky funkčné, pane.")
+c = 100673  # konečný čas v milisekundách
+d = 58739   # začiatočný čas v milisekundách
+e = c - d   # rozdiel medzi konečným a začiatočným časom
+f = int(d + (e / a) * b)  # nový konečný čas
+print(f)  # Výpočet nového konečného času pre slovenský titulok
+a je dĺžka anglického textu.
+b je dĺžka slovenského textu.
+c je konečný čas anglického titulku v milisekundách.
+d je začiatočný čas anglického titulku v milisekundách.
+e je rozdiel medzi konečným a začiatočným časom.
+f je nový konečný čas pre slovenský titulok, vypočítaný podľa pomeru dĺžok textov.
+
+Počítačové pirátstvo
+Počítačové pirátstvo zahŕňa nelegálne šírenie softvéru, filmov, hudby a ďalšieho chráneného obsahu. Patrí sem aj nelegálne zdieľanie titulkov. Tieto aktivity sú často v rozpore so zákonmi o autorských právach a môžu viesť k finančným stratám pre tvorcov obsahu.
+Titulky a pirátstvo
+Prístupnosť obsahu: Neoficiálne titulky umožňujú širšiemu publiku prístup k obsahu, ktorý by inak nebol dostupný v ich jazyku.
+Kvalita titulkov: Titulky vytvorené fanúšikmi môžu byť rôznej kvality. Niekedy sú presné a dôkladné, inokedy obsahujú chyby.
+Legálne alternatívy: Mnohé streamingové služby poskytujú titulky vo viacerých jazykoch, čo môže znížiť potrebu neoficiálnych titulkov.
+Etické aspekty: Aj keď sa môže zdať, že zdieľanie titulkov nie je tak závažné ako zdieľanie celých filmov, stále porušuje autorské práva a môže ovplyvniť tržby z legálnych zdrojov.
+ZADANIE 9 Práca s číslami. 
+Na stránke „https://www.eurizonslovakia.com“ pod voľbou „Fondy a produkty/FONDY SK“ sa  nachádzajú údaje o výkonnosti podielových fondov, PF, (vývoj ceny za 1 podielový list, PL, v  PF). Uvažujme PF Magnifica edícia I (ME 1) a vývoj ceny za 1 PL v priebehu posledného 1 roka,  11.09.2019-11.09.2020. Chceme zistiť hodnotu investície 1 000 € v 4 súvislostiach, na začiatku  obdobia, konci obdobia, minimálnu a maximálnu hodnotu počas obdobia (neuvažujeme žiadne  poplatky, ktoré zmenšujú hodnotu investície na výslednú veľkosť čistého výnosu) Chceme  stanoviť investičnú stratégiu na ďalší rok. 
+• Aký postup spracovania a vyhodnotenia navrhujete, aby ste určili všetky 4 súvisiace hodnoty?  Vývoj ceny za 1 PL za 1 rok máte uložený v „Uloha_2_Pridane_9.ods“? 
+	vložím údaje do excelu a využijem funkcie ako MIN MAX. pre čitatelnost graf
+• Ktorá reprezentácia výsledkov je najnázornejšia?(text, tabuľka, graf, popis, komb)
+graf (pri malých rozdieloch treba zmeniť mierku alebo vybrať iný typ spracovania ako napr. tabuľka)  
+• Aký je základný princíp práce s celými a aký s reálnymi číslami v počítači? Stačí pre  vysvetlenie len predstavu v konkrétnej aplikácii, kde ste takúto prácu vykonávali. 
+	Reálne čísla pracuju s desatinnou čiarkou čo môže robiť problémy, keď používame napríklad for cyklus, operacie s nimi su pomalsie
+
+
+
+
+ZADANIE 10 Ochrana majetku.
+• Bývate na ulici, kde sa často kradne. Dáte si vyrobiť tabuľku do predsiene s týmto textom
+„Milý zlodej, vitaj u nás, náš poklad je...“a záver textu chcete zakódovať do 2-farebného
+obrázka.
+• Záver textu (miesto pokladu) si vymyslite.
+• Popíšte spôsob – postup, ako by ste postupovali pri tvorbe obrázka – zakódovanej „tajničky“.
+Rozmery obrázka nie sú určené.
+—---------------------------------------------------------------------------------------------------------------------
+1) zvolím si miestnosť (obývačka) a zistiť hodnotu písmen v ASCII tabuľke (111, 98,253...)
+
+2) nájdem si najbližšiu mocninu k daným číslam a pripočítam/odčítam aby to sedelo (111 = 11**2-10...)
+
+3) v grafickom editore zakreslím tieto štvorce a pripočítam/odčítam pixely podľa potreby, medzi štvorcami nechám voľné miesto pre čitateľnosť
+—------------------------------------------------------------------------------------------------------------------------
+
+
+ZADANIE 11 Jedáleň. 
+• Sklad jedálne bol pri silnom daždi zatopený, viac potravín bolo potrebné zlikvidovať. • Navrhnite spôsob, ako by sme vypočítali, koľko z ktorého typu surovín treba na druhý deň  dokúpiť do skladu, aby sa dalo variť dané jedlo (pre daný rozpočet surovín) pre konkrétny  počet prihlásených stravníkov. 
+• Uvažujeme plán nákupu pri najnižších možných výdavkoch – kvôli šetreniu po vytopení a po  inventúre v sklade. 
+
+Treba porovnať aktuálny stav skladu a stav skladu pred zatopením. Ďalej ak je možné navariť z aktuálnych zásob netreba nič dokupovať alebo dokúpiť čo najmenší počet zásob aby to bolo možné. Idealne by pri tomto bolo použiť tabuľky pre lepšie spracovanie dát.
+
+
+
+ZADANIE 12 Zasielanie správy s prílohami. Overovanie vykonania citlivých operácií. 
+• Istý poštový klient sa zameriava na potlačenie odovzdania správ obsahujúcich v prílohe  súbory s presne špecifikovanými formátmi/obsahom, „exe“, „zip“, „bat“,... Navrhnite spôsob  (postup) ako sprostredkovať zaslanie a prevzatie takýchto správ? Primárne ako „oklamať“ 
+poštového klienta. Keď Vás nič nenapadne, tak potom inak prevedené odovzdanie súborov  adresátovi mimo tohto klienta. 
+• Jeden bezpečnostný prvok a jeho použitie pri citlivých operáciách nie je dostatočný na  vylúčenie rizika zneužitia, napr. že do procesu vnikla neoprávnená osoba. Aké iné následné  bezpečnostné prvky sú v akcii pri aspoň 2-krokovom overovaní spojeného s potvrdením  prevedenia operácie?  
+• Jedným z kritérií, pri nesplnení ktorého sa tiež stáva vo vybraných klientoch, že správa sa  nedostane k adresátovi, je obmedzenie na veľkosť súborov v prílohe. Aké možné riešenia  navrhujete, aby sme sa do ohraničenia zmestili? Uvažujte 2 typy súborov v prílohe,  bitmapové obrázky a dokumenty. 
+—----------------------------------------------------------------------------------------------------------------------
+•  exe - aplikácie Windows
+•        zip - obsahuje jeden alebo viac komprimovaných súborov, ktoré znižujú celkovú veľkosť súboru
+•        bat - skriptovací súbor, obsahuje príkazy čo ma Windows robiť
+1.      upravím príponu súboru na napr. .ex alebo .pdf - nahrám tento súbor ako prílohu do mailu a pošlem (odovzdať môžem súbor aj cez USB)
+2.      Biometrická overovanie: Používanie biometrických údajov, ako sú odtlačky prstov, rozpoznávanie tváre alebo hlasu, na overenie identity osoby vykonávajúcej operáciu; Jednorazové heslá (OTP): Generovanie a odosielanie jednorazových hesiel na overenie totožnosti pri každom kroku overovania alebo transakcie. ; Dvojité schválenie: Vyžadovanie schválenia operácie zo strany viacerých oprávnených osôb, čím sa zvyšuje kontrola a znižuje sa pravdepodobnosť zneužitia.; Časové ohraničenie: Obmedzenie časového okna, počas ktorého môže byť operácia dokončená, a vyžadovanie opakovaného overenia, ak prekročí stanovený časový limit.; Geografické overovanie; Sledovanie aktivít: 3.      klient môže mat nastavené, že mu zakazuje doručovať určité súbory, z dôvodu možného výskytu vírusov; klient môže mat obmedzenú veľkosť príloh, ktorá sa môže zaslať; ochrana proti spamu; kvôli ochrane
+4.      súbor môžem zozipovať do formátu .zip
+•        bitmapové obrázky - znížiť rozlíšenie a kvalitu alebo komprimovať do formátu JPEG/PNG
+•        dokumenty - napr. použijem PDF formát
+
+Ako sprostredkovať zaslanie a prevzatie správ s blokovanými prílohami
+Premenovanie súborov:
+Premenujte súbory s blokovanými príponami na niečo neškodné, napríklad „.txt“ alebo „.doc“.
+Príjemca po prevzatí súboru súbor premenuje späť na pôvodnú príponu (napr. z „example.txt“ na „example.exe“).
+Zaheslovaný archív:
+Vytvorte zaheslovaný archív (napr. „.zip“ alebo „.rar“) so silným heslom. Heslo pošlite príjemcovi oddelene, napríklad cez SMS alebo iný komunikačný kanál.
+Niektorí poštoví klienti môžu blokovať aj „.zip“ súbory, takže zvážte použitie menej známeho formátu archívu ako „.7z“.
+Šifrovanie súborov:
+Šifrujte súbory pomocou šifrovacích nástrojov ako VeraCrypt alebo GPG.
+Príjemca dešifruje súbor použitím zdieľaného kľúča alebo hesla.
+Použitie cloudových služieb:
+Nahrajte súbory na cloudovú službu (napr. Google Drive, Dropbox, OneDrive).
+Pošlite príjemcovi odkaz na stiahnutie súborov namiesto priameho priloženia súborov k e-mailu.
+Následné bezpečnostné prvky pri 2-krokovom overovaní
+Dvojfaktorová autentifikácia (2FA):
+Po prvotnom prihlásení s použitím mena a hesla je vyžadovaný druhý faktor, napríklad kód z autentifikačnej aplikácie (Google Authenticator, Authy), SMS kód, alebo hardvérový token (YubiKey).
+Biometrická autentifikácia:
+Po prvom prihlásení pomocou hesla sa používateľ overí pomocou biometrických údajov, ako sú odtlačky prstov, rozpoznanie tváre alebo sken dúhovky.
+Jednorazové heslá (OTP):
+Používateľ po prihlásení dostane jednorazové heslo na email alebo SMS, ktoré musí zadať, aby dokončil prihlásenie.
+Bezpečnostné otázky:
+Po prihlásení musí používateľ odpovedať na jednu alebo viac bezpečnostných otázok, ktoré si nastavil pri vytváraní účtu.
+Riešenia pre obmedzenie veľkosti súborov v prílohe
+Kompresia súborov:
+Použite kompresné nástroje ako „WinRAR“ alebo „7-Zip“ na zmenšenie veľkosti bitmapových obrázkov a dokumentov. Kompresia môže výrazne znížiť veľkosť bitmapových obrázkov.
+Pre dokumenty použite formáty, ktoré lepšie podporujú kompresiu, napríklad PDF s optimálnym nastavením pre kompresiu.
+Zmena formátu súborov:
+Pre bitmapové obrázky použite formáty s lepšou kompresiou ako JPEG alebo PNG namiesto BMP. JPEG sú vhodné pre fotografie, PNG pre obrázky s priehľadnosťou alebo s ostrými hranami.
+Pre dokumenty používajte formáty s lepšou kompresiou ako DOCX alebo PDF. DOCX je komprimovaný formát a výrazne znižuje veľkosť oproti staršiemu DOC formátu.
+Rozdelenie súborov:
+Rozdeľte veľké súbory na menšie časti, ktoré samostatne spĺňajú veľkostné obmedzenie príloh. Napríklad, použite nástroje na rozdelenie archívov ako WinRAR.
+Príjemca následne zloží tieto časti späť do jedného súboru.
+Optimalizácia obrázkov:
+Použite nástroje na optimalizáciu obrázkov, ktoré zmenšia ich veľkosť bez výraznej straty kvality (napr. TinyPNG pre PNG a JPEG obrázky).
+
+
+
+
+ZADANIE 13 Kompatibilita. Univerzálny formát pre publikovanie informácií. 
+• Uveďte aspoň 2 príklady, kde 100\%-ná kompatibilita medzi OS Windows a Linux nefunguje  automaticky a navrhnite postup ako by ste sa ju pokúsili dosiahnuť? 
+• Ako znie skratka univerzálneho formátu, v ktorom sa štandardne publikuje textová a grafická  informácia? Naznačte 2-3 spôsoby akými sa textovo-grafická informácia dá uložiť do tohoto  univerzálneho formátu. 
+• Sformulujte 1 príklad, kedy konkrétny hardvér a softvér nie sú kompatibilné?
+
+
+
+Powerpoint a Libre Office Impress, castokrat sa nezachova poloha obrazkov a textu, nefunguju animacie prechodov medzi jednotlivymi slidami, Libre Office a microsoft word, taktiez nastava probem pri formatovani textu, text si nie vzdy zachova povodne  rozmiestenie, nastavaju problemy s obtekanim textu pri obrazkoch v dokumente. Tieto problemy by sme vedeli vyriesit pomocou univerzalneho grafickeho formatu PDF(portable document format), je vektorovy graficky format, ktory zachova dokument v povodnom stave, subor mozeme dosatat do PDF formatu bud priamo v priamo v programe, v ktorom pracujeme(exportovat ako PDF), pomocou virtualnej tlaciarne(ulozit ako PDF), alebo pomocou online konvertorov(Adobe PDF Coventer)> Hardver a softer su casto krat nekompatibilne pri novsich softveroch a starsich zariadeniach, naprikald ked mame stary rodinny pocitac a chceme nainstalovat novsi softver(napriklad Windows 11), tu sa mozeme stretnut s problebami s vykonom, kedy hardver nema kapacitu na softverove vypocty, alebo chybajuce funkcie, ktorymi moze disponovat softver ale nie zastarali hardver(pocitac). 
+
+ 
+Kompatibilita medzi ovládačmi periférnych zariadení: Niektoré periférne zariadenia, ako napríklad tlačiarne alebo skenery, môžu mať ovládače, ktoré nie sú plne kompatibilné s oboma operačnými systémami. V takom prípade sa môžete pokúsiť dosiahnuť kompatibilitu tým, že nainštalujete ovládače, ktoré sú explicitne určené pre konkrétny operačný systém. V niektorých prípadoch môže byť nutné vyhľadať alternatívne ovládače od výrobcu alebo od komunity, ktoré sú kompatibilné s oboma OS.
+
+Súborové systémy: Niektoré súborové systémy, ako napríklad NTFS (Windows) a ext4 (Linux), nie sú plne kompatibilné medzi OS Windows a Linux. Napríklad, Linux môže mať obmedzené možnosti čítania alebo zápisu na oddiel NTFS. Na dosiahnutie plnej kompatibility môžete použiť rôzne softvérové nástroje alebo ovládače, ktoré umožňujú Linuxu pracovať s NTFS oddielmi bez obmedzení.
+Univerzálny formát: Skratka pre univerzálny formát, v ktorom sa štandardne publikuje textová a grafická informácia, je PDF (Portable Document Format). Textovo-grafickú informáciu je možné uložiť do formátu PDF napríklad pomocou programov Adobe Acrobat, Microsoft Word (export do PDF), alebo cez online nástroje, ako je Smallpdf.
+Nekompatibilita hardvéru a softvéru: Príkladom nekompatibility medzi konkrétnym hardvérom a softvérom môže byť situácia, keď starší hardware nie je schopný podporovať novšiu verziu softvéru kvôli nedostatočným technickým špecifikáciám. Napríklad, nová verzia operačného systému môže vyžadovať výkonnejší procesor alebo viac pamäte RAM, čo môže spôsobiť, že starší počítač nebude schopný správne fungovať s touto novou verziou softvéru.
+
+ZADANIE 14 Nedoručenie správy. Počítačová sieť. 
+V nasledujúcom sú uvedené 4 dôvody nedoručenia správy adresátovi, ktorú sme poslali z „nášho“  poštového klienta: 
+1) „Your message cannot be delivered due to the size of the mailbox of the receiver exceeds the  maximum limit of the mailboxes on the mailserver“; 
+2) „Your message cannot be delivered due to the nonexisting address  jozomrkvicka@gmail.com“; 
+3) Adresát Jožko Mrkvička je v dňoch 25.02.-01.03. 2021 nedostupný. 
+Štvrtý dôvod sme sa dozvedeli priamo od adresáta, že si ju nenašiel v priečinku Prijaté, ale my  sme súčasne nedostali vyrozumenie, že správa nebola doručená. 
+• Popíšte (preložte) do zrozumiteľnej reči prečo nebola Vaša správa v prípadoch 1) – 4),  doručená. (kde viete jednoznačný dôvod, kde sa iba domnievate) 
+	1 - schránka do ktorej sme mail poslali prekročila maximalny limit
+	2 - schránka neexistuje
+	3 - adresát si naplánoval nedostupnosť v daných dátumoch
+	4 - správa sa dostala do spamu alebo sme zadali zlú adresu (domnievam sa)
+• Ako rozdeľujeme počítačové siete podľa architektúry? Zaraďte našu školskú počítačovú sieť. 
+Client-to-server a peer-to-peer. Školská sieť patrí medzi client-to-server,keďže počítače navzájom medzi sebou komunikujú ale komunikujú so serverom.
+• Čo znamená „alias“ pri používaní v elektronickej pošte? Aký je vzťah medzi adresárom  kontaktov a „aliasom“?
+Alias v elektronickej pošte je alternatívny identifikátor pre e-mailovú adresu. Môže to byť krátky, ľahko zapamätateľný názov, ktorý je priradený k e-mailovej adrese a môže byť použitý na zjednodušenie odosielania e-mailov.
+Vzťah medzi adresárom kontaktov a aliasom spočíva v tom, že alias môže byť priradený k určitému kontaktu v adresári. To umožňuje odosielateľovi používať alias namiesto plnej e-mailovej adresy pri odosielaní e-mailov, čo môže byť pohodlnejšie a ľahšie na zapamätanie.
+
+
+
+
+ZADANIE 15 Inštalovanie nenatívneho softvéru. 
+Pripojenie vstupno-výstupných zariadení. Ovládače. Nachádzame sa na počítačovom zariadení, pod OS Windows (verzia XP, 7, 10), pod nesieťovým  kontom (napr. preddefinovaná doména „WORKGROUP“) s administrátorskými právomocami: 
+• Chcete nainštalovať „bežný“ (v zmysle „freeware“ alebo dokonca „public-domain“)  užívateľský softvér, nie natívny, napr. alternatívny web prehliadač, kancelársky balík. Uveďte  v niekoľkých krokoch osnovu postupu Vášho riešenia. Zamerajte sa na správne logické  poradie krokov. 
+• Aké sú najčastejšie nebezpečenstvá skryté v činnostiach z osnovy; čo beriem do úvahy pri  výbere inštalátora? 
+• Na priloženom obrázku určite, kam by ste pripojili nasledujúce zariadenia: projektor,  mikrofón či reproduktor, sieťový kábel pre internetové pripojenie, klávesnicu, myš? Čo je  potrebné nainštalovať po pripojení nového zariadenia?  
+
+
+—---------------------------------------------------------------------------------------------------
+Vyhľadal by som webovú stránku daného softvéru, na tejto stránke by som stiahol inštalačný súbor. Dvojklikom na stiahnutý inštalačný súbor spustím inštalačný proces. Inštalátor nám väčšinou dáva na výber preferovaný jazyk, ďalej akceptujeme licenčné podmienky a vyberieme cieľovú cestu inštalácie. Dokončíme inštaláciu.
+
+Pri výbere inštalátora beriem do úvahy dôveryhodnosť a povesť distribútora daného softvéru. Softvér sťahujem z oficiálnych webových stránok, snažím sa vyhýbať inštalatérom, ktoré môžu požadovať inštaláciu dodatočného softvéru atď. Medzi najčastejšie nebezpečenstvá patri napr. Malware alebo Spyware, ktoré môžu poškodiť počítačový systém alebo sledovať moju činnosť. Niektoré inštalačné programy môžu takisto neprimerane zmeniť nastavenia môjho systému.
+Projektor -  VGA alebo HDMI
+Mikrofón a reproduktor – analog audio ports, mikrofón červený, reproduktor zelený
+Sieťový kábel pre internetové pripojenie – eternetový port
+Klávesnica, myš – USB porty
+Po pripojení nového zariadenia je potrebné nainštalovať ovládače. 
+
+ZADANIE 16 Ochrana a bezpečnosť počítačového zariadenia. 
+• Premyslite si a navrhnite Vašu zostavu ochrany a sledovania osobného počítača proti prieniku  a spusteniu nedovoleného, podozrivého súboru/programu. Uvažujte OS Windows (XP, 7, 10  podľa skúsenosti).
+• Akú úlohu pri Vašom rozhodovaní hrá: i) zapnutie/vypnutie Firewallu a konkrétna technika  jeho zapojenia; Je ešte Firewall opodstatnený najneskôr od Win10? ii) natívny antivírový  program Windows Defender; iii) Ktoré alternatívne voľby a prečo? (Norton)
+• i) Čo riešime v antivírovom programe „updatom“ a čo „upgradom“? ii) Uveďte v čom  spočíva ochrana, ktorú nám poskytuje antivírový program. Je len jednou súčasťou  (komponentou) celého bezpečnostného systému; Ktoré ďalšie riziká a nebezpečenstvá nám  systém cez svoje utility/komponenty vykrýva? 
+
+
+2
+Pri rozhodovaní o ochrane počítača:                                                          i) Firewall: Rozhoduje sa, či ponechať zapnutý firewall, ktorý je dôležitý pre ochranu siete. Je nevyhnutný aj v systéme Windows 10.                                       ii) Windows Defender: Uvažuje sa, či ponechať aktivovaný natívny antivírusový program Windows Defender, ktorý poskytuje základnú ochranu.                                      iii) Eset, Avast, McAfee… môžu ponúknuť ďalší stupeň ochrany a aplikácie Malwarebytes ponúka scan zariadenia pre mnohé typy malweru a spywaru
+3
+
+
+i) Aktualizácia (update): Aktualizáciou sa zabezpečuje, že antivírusový program má najnovšie definície vírusov a iného škodlivého softvéru, aby bol schopný identifikovať a eliminovať nové hrozby.
+ii) Upgrade: Pri upgrade sa zvyčajne zlepšuje celková funkčnosť a schopnosť antivírového programu, často sa pridávajú nové funkcie alebo sa aktualizuje jeho jadro
+
+
+Čo je to brána firewall?
+Brány firewall sú softvérové programy alebo hardvérové zariadenia, ktoré filtrujú a skúmajú informácie prichádzajúce cez vaše internetové pripojenie. Predstavujú obranu v prvej línii, keďže zabraňujú škodlivému programu alebo útočníkovi získať prístup k vašej sieti a údajom skôr, ako by stihli čokoľvek poškodiť.
+ZADANIE 17 Viacnásobné overovanie vykonania citlivých operácií. 
+Prílohy mailovej komunikácie. • Veľmi dôležitým bezpečnostným úkonom pri elektronickej komunikácii je autorizovanie  oprávneného užívateľa prostredníctvom zadania PIN kódu. Uveďte príklady operácií (aspoň  3) v priebehu vykonávania ktorých, sa zadáva PIN kód? 
+• Uvažujte jeden Vami predložený príklad z predchádzajúcej odrážky. Vo všeobecnosti máte na  správne zadanie PIN kódu 3 pokusy. Predstavte si, že ∀ pokusy boli neúspešné. Čo sa v  situácii Vášho príkladu následne stane (vlastná skúsenosť/návod)? Aký postup riešenia  nápravy navrhujete?  
+• Ktorý objektívny dôvod uvádza nemenovaný poštový klient pre odopretie zaslania správy so  súbormi s presne špecifikovanými formátmi? 
+
+Príklady operácií, pri ktorých sa zadáva PIN kód:
+Pri vstupnom overení: Pri vstupnom overení do elektronických zariadení, ako sú mobilné telefóny, smartfóny, tablety alebo bankomaty,
+Pri platbe kartou: Pri platbe kartou v obchode alebo na internete sa môže vyžadovať zadanie PIN kódu na overenie platby a autorizáciu transakcie.
+Pri prístupe k citlivým údajom: Pri prístupe k citlivým údajom alebo službám, ako sú osobné údaje, bankové účty, e-mailové schránky alebo cloudové úložisko
+Situácia, keď všetky pokusy o zadanie PIN kódu boli neúspešné:
+Ak všetky pokusy o zadanie PIN kódu boli neúspešné, môže dôjsť k zablokovaniu prístupu k zariadeniu alebo službe. V prípade mobilných telefónov či SIM kariet, ktoré sú zablokované kvôli neúspešným pokusom o zadanie PIN kódu, môže byť potrebné zadanie PUK kódu na odblokovanie.
+Postup odblokovania
+Kontaktovanie poskytovateľa služby: Užívateľ by mal kontaktovať poskytovateľa služby (napríklad banku, mobilného operátora), ktorý mu poskytne informácie o postupe na obnovenie prístupu.
+Zadanie PUK kódu: PUK (Personal Unblocking Key) kód slúži na odblokovanie PIN kódu..
+Dôvod pre odopretie zaslania správy so súbormi s presne špecifikovanými formátmi:
+Poštový klient môže odmietnuť zaslanie správy so súbormi s presne špecifikovanými formátmi z bezpečnostných dôvodov. Toto opatrenie môže byť súčasťou ochrannej politiky poskytovateľa e-mailovej služby, ktorá má za cieľ minimalizovať riziko prenosu škodlivého obsahu, ako sú vírusy, malvér alebo phishingové útoky. Nastavenie obmedzení na prílohy pomáha chrániť užívateľov pred potenciálnymi hrozbami pre ich zariadenia a údaje.
+ZADANIE 18 Vypublikovanie. 
+Forma v akej je informácia rozložená + obsah akým je informácia  podávaná. 
+• Dnes je štandardom v procese vytvárania publikovateľnej podoby informácie oddeliť od seba  časť, ktorá sa týka jej rozloženia a tú, ktorá sa venuje vyjadreniu obsahu ňou nesúceho.  Vyberte si 3 prostredia (aplikácie), ktoré najlepšie ovládate a stručne popíšte, v čom spočíva  osamostatnenie formy od obsahu pri vytváraní publikovateľnej podoby informácie? 
+• V priečinku „Uloha_2“ máte 2 príklady (html, odt) vytvorenia publikovateľnej podoby tej  istej informácie. Premyslite si a navrhnite postup vypracovania oboch spôsobov, kde zvlášť  riešite formu a obsah informácie? V odpovedi len uveďte (nevykonávajte prakticky) nástroje,  techniky, prostriedky. V čom spočíva spojenie oboch častí do požadovaného celku? 
+• Ku ktorej časti, forma alebo obsah, sa viaže vytváranie hotových predlôh, ktoré sa dajú využiť  vo veľkom počte praktických vypracovaní riešení? Ponúknite aspoň 3 príklady, kde ste s  takýmito predlohami pracovali (hotové, Vami vytvorené)
+
+
+1,
+MS Word: Užívatelia definujú štýly pre rôzne časti dokumentu a aplikujú formátovanie stránok nezávisle od obsahu.
+Paint.net: Užívatelia vytvárajú vrstvy pre jednotlivé prvky obrázku, čo umožňuje nezávislé manipulácie s nimi.
+PowerPoint: Používatelia vyberajú šablóny a pridávajú obsah do jednotlivých častí slajdov, čím dosahujú jednotný vzhľad a nezávislosť obsahu.
+2,
+Formátovanie obsahu:
+Použite editor na úpravu textu (napr. MS Word, LibreOffice Writer) na definovanie štruktúry dokumentu a formátovanie textu.
+Vytvorenie vizuálnej podoby:
+Vytvorte grafické prvky v grafickom editore (napr. Adobe Photoshop, GIMP) ako obrázky a ikony.
+Spojenie formy a obsahu:
+Integrujte obsah do požadovaného formátu (HTML alebo ODT) a pridajte grafické prvky na vhodné miesta.
+
+3, Vytváranie hotových predlôh najviac súvisí s formou
+Prezentácie PowerPoint:
+Dokumenty Microsoft Word:
+Tabuľky Excel:
+
+ZADANIE 19 Riešenie problémov
+
+
+Program neodpovedá. Hardware vnútro PC, čo kam zapojiť – konektory.
+„The program (process) is not responding“. Častá situácia, v ktorej sa užívateľ ocitne pri práci pod OS Windows.
+• Aké sú prejavy navonok, na základe ktorých určujete, že nastal tento stav. Ako si súbežne
+overíte, že činnosť programu, resp. celej „Windows session“ je ochromená? Aký je Váš
+postup rozhodovania a konania, aby ste odstránili softvérovú závadu?
+• Vychádzajúc z prvej úlohy aké riešenia navrhujete, ktoré riziká sa pri nich môžu naplniť?
+• Zariadenie nefunguje – reproduktor alebo tlačiareň nie sú funkčné. Čo býva najčastejšou,
+ľahko opraviteľnou príčinou?
+
+Zaseknutie programu a neskôr zatienenie okna programu. Viem skontroľovať či system samotný funguje kliknuťím na iný program, ak sa otvorí problém je len v programe nie v celom systeme.
+	Môžem čakať na program či sa sám opraví, v prípade, že to nepomôže môžem vynútiť ukončenie programu v správcovi úloh alebo môžem reštartovať počítač. Pri vynútení ukončenia programu/reštartovaniu počítaču môže nastať strata dát.
+Väčšinou to je buď zle zapojený konektor alebo v prípade bezdrôtového príslušenstva slabý signál/zle nastavené pripojenie medzi počítačom a príslušenstvom/chyba v samotnom zariadeni 
+
+
+
+
+
+
+ZADANIE 20 Vzdelávacie prostredia, služby. 
+• Zostrojte trojuholník ABC, ak máte dané: dĺžku strany c=5cm, ťažnicu na stranu b, tb=6cm, a  uhol α=60˚. Použite vetu „sus“. Ak má úloha viac ako jedno riešenie stačí, keď zapíšete  postup konštrukcie a prevediete konštrukciu jedného z nich. Úlohu riešte elektronicky.  Vyjadrujte sa či textovo alebo graficky len stručne a podstatne. 
+• Uveďte 3 konkrétne prevedenia vzdelávacích/výukových prostredí vo vzťahu k ich  umiestneniu/inštalácii/používaniu? 
+• Pri akej situácii sa rozhodnete použiť služby prostredia „Wikipedia“ a pri akej „Youtube“,  keď hľadáte informácie? 
+
+1,AB;[AB]=5cm
+2,uholBAX; [BAX]=60
+3,k,k(S,6cm)
+4,Tb, Tb lezi k prienik BAX
+5,k2,k2(Tb,[ATb])
+6,C,C lezi BAX prienik k2
+7, trojuholnik ABC
+Vzdelávacie/výukové prostredia:
+Tradičné vzdelávacie inštitúcie: Tieto prostredia zahŕňajú školy, univerzity a vzdelávacie inštitúcie, kde študenti navštevujú učebne a prednášky na základe rozvrhu.
+Online vzdelávacie platformy: Tieto platformy ponúkajú online kurzy, lekcie a materiály, ktoré sú dostupné na internete. Študenti môžu študovať a učiť sa podľa vlastného tempa a času.
+Kombinované vzdelávacie programy: Tieto programy kombinujú tradičné vyučovanie s online výukou. Študenti môžu navštevovať tradičné triedy, ale majú aj prístup k online materiálom a zdrojom.
+Použitie služieb Wikipedia a YouTube:
+Wikipedia: Použije sa pri hľadaní všeobecných informácií, konceptov alebo definícií, keď je potrebné mať pomerne spoľahlivý a overený zdroj informácií.
+YouTube: Použije sa pri hľadaní vizuálnych návodov, tutoriálov, alebo demonštrácií, kde je dôležité vidieť proces alebo vysvetlenie naživo. YouTube môže byť tiež užitočný pre hľadanie videí s praktickými príkladmi alebo vysvetleniami.
+Fyzicka ucebna, klasicka forma vzdelavania, netreba instalaciu, prezencna forma vzdelavania 
+SME.sk, spravodajsky portal, netreba instalaciu, vieme sa k nemu dostat cez webovy prehliadac, 
+Instagram, potrebujeme na zaciatok nainstalovat aplikaciu a vytvorit pouzivatelsky profil, treba si davat pozor na zdroje a relevantnost informacii, s ktorymi sa stykame. 
+Wikipedia, napriklad vypracovanie zadanie na hodinu dejepisu, velke mnozstvo udajov, spolahlive informacie 
+Youtube napriklad videonavod na vymenenie sviecky do motorky, informacie mozu byt nie vzdy pravdive, vyhoda vizualnej informacie.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 21 Univerzálny formát pre publikovanie textovej, grafickej, ďalšej (nesúvislej) informácie.  Kompatibilita. 
+• Navrhnite postup riešenia ako z tlačovej podoby knižnej publikácie vyrobiť vlastnoručne  elektronickú≡digitálnu podobu uloženú v súbore/och. Aké sú výhody/nedostatky Vami  navrhnutého postupu? 
+• Ako súvisí „upgrade“ konkrétneho programu s jeho kompatibilitou? Voči čomu kompatibilitu  vzťahujeme (zostáva zachovaná v rámci jedného programu medzi čím)?  
+• Čo znamená OCR najmä vo vzťahu k publikovaniu a prezeraniu textovej informácie? Ako  rozumiete rozdielu, že textová informácia je publikovaná v 
+1. univerzálnom formáte (predstavte si, že „vyšla“ v digitálnej podobe v tomto formáte zo  skenovania textu), 
+2. univerzálnom formáte s prídavkom OCR.
+Vyrobenie elektronickej podoby knižnej publikácie z tlačovej podoby:
+Postup riešenia:
+Najprv je potrebné naskenovať každú stranu knihy, pričom je dôležité zabezpečiť dostatočné rozlíšenie a kvalitu skenovania.
+Vytvorit PDF
+Výhody:
+Elektronická podoba knižnej publikácie je ľahko prenositeľná a dostupná na rôznych zariadeniach.
+Nedostatky:
+Nedá sa editovať
+Vzťah "upgrade" programu a jeho kompatibility:
+"Upgrade" programu zvyčajne znamená aktualizáciu na novšiu verziu softvéru, ktorá prináša vylepšenia, opravy chýb a nové funkcie.
+Kompatibilita sa týka schopnosti novej verzie softvéru spolupracovať s existujúcimi súbormi a systémami.
+Pri "upgrade" je dôležité, aby nová verzia softvéru bola kompatibilná s predchádzajúcimi verziami, aby sa zachovala možnosť otvoriť a pracovať so súbormi vytvorenými v starších verziách.
+OCR a jeho význam vo vzťahu k publikovaniu a prezeraniu textovej informácie:
+OCR (Optical Character Recognition) je proces, ktorý umožňuje previesť obrázok textu na skutočný text, čo je veľmi užitočné pri digitalizácii tlačených dokumentov.
+Publikovanie textovej informácie v univerzálnom formáte znamená, že text je v digitálnej podobe, ale nie je možné ho vyhľadávať ani editovať.
+Publikovanie textovej informácie v univerzálnom formáte s prídavkom OCR znamená, že text je vo formáte, ktorý je vyhľadateľný a editovateľný, čo zvyšuje jeho funkčnosť a využiteľnosť.
+OCR (Optical Character Recognition) je neoceniteľným nástrojom v procese publikovania a prezerania textovej informácie. Tu je, ako prispieva k tomuto procesu:
+Digitalizácia tlačených dokumentov:
+OCR umožňuje prevádzať tlačené dokumenty, ako sú knihy, články a faktúry, na digitálnu podobu. Tento proces je kľúčový pre archiváciu a uchovávanie dokumentov v elektronickej podobe.
+Univerzálny formát textu:
+Publikovanie textu v univerzálnych formátoch ako PDF, DOCX alebo TXT zabezpečuje kompatibilitu s rôznymi zariadeniami a softvérom. Avšak, bez OCR, text v týchto formátoch je len statickým obrázkom a nie je možné ho vyhľadávať ani upravovať.
+Vyhľadateľný a editovateľný text:
+Integrácia OCR s univerzálnymi formátmi textu umožňuje vytvárať dokumenty, v ktorých je text skutočne vyhľadateľný a editovateľný. To znamená, že môžete vyhľadávať konkrétne slová alebo frázy v dokumente a tiež upravovať text podľa potreby.
+Zvyšovanie funkčnosti a využiteľnosti:
+Prítomnosť OCR v publikovaných dokumentoch zvyšuje ich funkčnosť a využiteľnosť. Umožňuje ľuďom rýchlo vyhľadávať relevantné informácie v rozsiahlych textoch a tiež ľahko upravovať a prispôsobovať obsah.
+Vďaka OCR je možné tlačené dokumenty digitalizovať do univerzálnych formátov s vyhľadateľným a editovateľným textom, čo v konečnom dôsledku zvyšuje efektívnosť, prístupnosť a využiteľnosť textovej informácie.
+ZADANIE 22 Hardvér.
+• Máme zadaný text (v textovom dokumente „hardver.txt“), vytvorte z neho text, kde bude
+každé slovo na samostatnom riadku. Z textu zistite, počet slov jednotlivých dĺžok (koľko slov
+akej dĺžky) a vizuálne ho znázornite, napríklad takto:
+• Aký význam majú tieto slová? – vyberte si z nich aspoň tri a popíšte ich!
+
+Rozložil som text do riadkov a cez python som spočítal dĺžku slov. Ďalším programom som spočítal ako často sa vyskytuje daný počet slov. Zistené údaje som dal do Excelu a vytvoril graf.
+
+Pevný disk – Zariadenie na ukladanie a čítanie digitálnych údajov. Tvorené z viacerých magnetických diskov, ktoré sa otáčajú a zatiaľ čítačka/zápisníky čítajú/zapisujú údaje
+Von Neumannova schéma - Základný model počítačovej architektúry. Tvorený
+z procesoru, úložiska programu, úložiska údajov, vstupno-výstupné zariadenie
+a systém riadenia
+Procesor – časť počítaču, ktorá má za úlohu vykonávanie inštrukcií, riadenie toku
+programov, spracovanie dát, komunikáciu s ostatnými zariadeniami.
+
+
+ZADANIE 23 Narábanie so súbormi a priečinkami. 
+• Premyslite si a uveďte postup ako sa môžete pokúsiť obnoviť súbor, ktorý ste odstránili z  úložného média, uvažujeme HDD/USB kľúč. 
+• Akých prístupových atribútov sú nositeľmi priečinky a akých súbory? Vysvetlite stručne, čo  pre jeden a druhý objekt znamenajú? V odpovedi uveďte aj manipuláciu s atribútmi vo  Windows/Linux a ako sa povolenia kategorizujú/akej politike prenosu podliehajú, opäť  Windows/Linux. 
+• Určte čo nepatrí do tejto skupiny úložných priestorov: i) harddisk, USB kľúč, CD-R, DVD RW, externý disk, Google Drive a vysvetlite prečo. ii) Ktoré z uvedených údajov spolu s  jednotkami informácie nepredstavujú skutočné kapacity úložných pamäťových médií: 8 GB;  32 GB; 4,7 GB; 11 GB; 1 TB? Aby ste vysvetlili odpoveď, napíšte pre tie, ktoré ostali ako  správne, ktorým konkrétnym pamäťovým zaradeniam prislúchajú (stačí pre každú kapacitu 1 príklad). 
+—--------------------------------------------------------------------------------------------------------------------
+1) Ak je súbor odstránený a chcel by som ho obnoviť, ako prvý by som skontroloval Kôš (Recycle  Bin). Ak by som tam tento súbor našiel, stačilo by kliknúť pravým tlačidlom na možnosť Obnoviť, a súbor by sa obnovil.
+V prípade nemožnosti využiť prvú možnosť, pokúsil by som sa obnoviť daný súbor pomocou zálohy dát v danom zariadení. Tento krok ale vyžaduje, aby som mal predchádzajúcu zálohu súboru, ktorý som odstránil.
+Ako poslednú možnosť by som využil program ako napríklad „Windows File Recovery“, kde viem pomocou príkazového riadka obnoviť odstránené súbory.
+2) Pri priečinkoch to môže byť:
+1.      Čítanie (Read) – používateľ má povolenie čítať obsah priečinka, to znamená zobraziť zoznam súborov prípadne iných priečinkov
+2.      Zápis (Write) – používateľ má povolenie vytvárať nové súbory alebo priečinky v danom priečinku, ako aj ich modifikovať alebo mazať
+3.      Spustenie (Execute) – používateľ má prístup do priečinka pre prácu s jeho obsahom.
+Pri súboroch to môže byť:
+1.      Čítanie(Read) – používateľ má povolenie zobraziť obsah daného súboru
+2.      Zápis (Write) – používateľ má povolenie modifikovať obsah súboru
+3.      Spustenie (Execute) – Ak je daný súbor možné spustiť, toto povolenie umožní spustiť súbor ako program.
+V systéme Windows je možné nastaviť prístupové atribúty priečinkov a súborov pomocou okienka s vlastnosťami súboru/priečinka. Keď klikneme na daný priečinok pravým tlačidlom myši, vieme vybrať možnosť „Vlastnosti“ a následne „Zabezpečenie“, kde je možné upraviť prístupové povolenia podľa potreby.
+V systéme Windows sú prístupové povolenia kategorizované do viacerých skupín ako „systém“, „administrátor“ alebo „používatelia“, pričom každá skupina môže mať vlastné práva. Politika prenosu vo Windows môže byť riadená pomocou prístupových kontrol na lokálnej úrovni alebo domény.
+3)         do tejto skupiny nepatrí Google Drive, keďže ide o cloudovú úložiskovú službu, čo znamená, že dát nie sú uložené na fyzickom zariadení, ale na vzdialených serveroch, ku ktorým je možný prístup cez internet
+neštandardná kapacita je 11 GB, 8GB je typická pre USB kľúč, 32 GB – SD karta, 1TB – externý harddisk, 4,7 GB – DVD-R
+Zadanie 24 - Práca so sieťou
+• Aký bude Váš postup riešenia, pri ktorom máte zistiť koho/čo zastupuje na internete globálna IP adresa 147.175.17.1?
+• Aký je rozdiel medzi prideľovaním adries internetovými protokolmi IPv4 a IPv6? V čom je
+zabezpečená kompatibilita? Uveďte názvy aspoň 2 serverov, ktoré vykonávajú niektorú zo
+základných služieb pri komunikácii na internete. Predpona v názve služby je zhodná s jej
+pomenovaním.
+• Určte čo nepatrí medzi nasledujúce skratky: i) HTTP, FTP, IPCONFIG, SMTP, POP3,
+TELNET. ii) Vymenujte a stručne vysvetlite akými technológiami sa dá pripojiť v súčasnosti
+na internet?
+Existuje veľa online nástrojov ako získať informacie z IP adresy ako napríklad https://whatismyipaddress.com/ip-lookup
+IPv4 je starší 32-bitový štandard, IPv6 je novší 128-bitový štandardy kompatibilitu zabezpečuje technológia Dual Stack, ktorá umožňuje zariadeniam používať obe verzie súčasne. 
+Apache HTTP Server: Poskytuje podporu pre HTTP, HTTPS a iné webom používané protokoly. BIND (Berkeley Internet Name Domain): pre DNS (Domain Name System). Slúži na mapovanie doménových mien na IP adresy a na prevod IP adries na doménové mená.
+
+Skratka IPCONFIG patrí medzi konfiguračné nástroje pre sieťové pripojenie a konfiguráciu IP adries, takže je odlišná od ostatných, ktoré sú zamerané na internetové protokoly a služby. Ethernet/Wi-Fi: 
+Klasické pripojenie pomocou kábla alebo bezdrôtové pripojenie cez Wi-Fi.
+ Mobilné siete (3G, 4G, 5G): Pripojenie cez mobilné dáta poskytované mobilnými operátormi.
+Satelitné pripojenie: Internetové pripojenie cez komunikačné satelity.
+ Optické pripojenie (napr. fiber optic): Vysokorýchlostné pripojenie pomocou optických vlákien.
+ZADANIE 25 Zverejňovanie výsledkov pod určeným autorstvom.
+K výslednému obrázku máte priložené vybrané medzikroky použité pri jeho tvorbe. Informácie majú byť publikované v časovej a logickej postupnosti, pri ktorej vznikali, až po hotový stav.
+• Navrhnite aspoň 1 spôsob praktickej realizácie zverejnenia grafickej informácie a v hrubých
+črtoch ho preveďte.
+• Ako by ste si zabezpečili Vaše autorstvo nad publikovanou informáciou?
+• Uveďte základné body netikety, ktoré vedome/nevedome najčastejšie dodržiavate?
+
+Môžeme ho zverejniť napríklad cez sociálne siete ako je Instagram, Facebook, X... alebo cez HTML stránku.
+	Použitie watermark alebo uvedenie autorských práv napríklad pomocou symbolu ©
+	Rešpekt voči ostatným, Ochrana súkromia, Zdravé diskusie, Dodržiavanie pravidiel 	platformy, Používanie správnej komunikačnej formy
+
+ZADANIE 26 Infikovanie pamäťového zariadenia. 
+Predstavte si situáciu: pripojené vonkajšie pamäťové zariadenie - USB kľúč s prejavmi:: A. po  pripojení na desktopové zariadenie s OS Windows XP a vyššie, ktoré je programovo chránené  systémom EEA ∨ aspoň NOD4 sú nájdené výskyty podozrivých súborov „*.lnk“, systém  odporúča vymazať ∨ dať do karantény; B. doterajšie súbory a priečinky na kľúči zostali  zachované; C. ku všetkým súborom pribudli odkazy na ne; D. Všetky objekty na kľúči dostali  príznak systémový; E. pod XP doterajšie objekty vidíme ako chránené, od Win7 a vyššie so  štandardným nastavením ich nevidíme ⇒ obsah kľúča je navonok prázdny. 
+• Analyzujte stav, aké praktické kroky, okrem tých použitých v popise navrhujete? 
+• Aký postup riešenia vám vyplýva z Vašich skúseností a vedomostí? Aké druhy zariadení,  operačných systémov môžeme použiť ako sprostredkovateľov nápravy stavu? Využite  prostriedky, ktoré poznáte najlepšie, z domáceho/zo školského prostredia. 
+• Aké súborové systémy sú určujúce pre pamäťové médiá typu USB flash disk? Vyberte si  jeden a popíšte ho vo vzťahu k praktickému narábaniu s kľúčom.
+
+1
+A
+Skenovanie USB kľúča s aktualizovaným antivírovým softvérom: Zablokovanie spustenia podozrivých súborov Zálohovanie dát z USB kľúča
+ C
+Preskúmanie odkazov: zistiť ich cieľové adresy.Odstránenie podozrivých odkazov: Pokiaľ sa ukáže, že odkazy sú podozrivé alebo nebezpečné, 
+D Skontrolujte zmeny v histórii súborov a priečinkov, Vyhľadajte podozrivé súbory a priečinky a skenujte ich antivírusovým programom, aby ste zistili, či sú infikované
+F
+Skontrolujte, či ide o problém so zobrazením skrytých súborov a priečinkov Ak áno, môžete zmeniť nastavenia zobrazenia súborov a priečinkov v Paneli ovládania 
+
+2
+Skontrolujte a izolujte podozrivé súbory: Použite antivírusový softvér na skenovanie USB kľúča a odstránenie podozrivých súborov.
+Zálohujte dôležité údaje: Pred akýmkoľvek ďalším krokom zálohujte dôležité údaje z kľúča.
+Riešte problémové súbory: Postupujte podľa odporúčaní antivírusového softvéru týkajúcich sa vymazania alebo umiestnenia podozrivých súborov do karantény.
+3
+FAT32 (File Allocation Table): Je starším súborovým systémom, ktorý je podporovaný väčšinou operačných systémov. Má maximálnu veľkosť súboru 4 GB a maximálnu kapacitu zariadenia 2 TB..
+exFAT (Extended File Allocation Table): Je moderným súborovým systémom vyvinutým spoločnosťou Microsoft. Podporuje veľké súbory a zariadenia s veľkou kapacitou a je kompatibilný s rôznymi operačnými systémami.
+NTFS (New Technology File System): Je súborový systém vyvinutý spoločnosťou Microsoft pre operačné systémy Windows. Poskytuje pokročilé funkcie, ako je práva prístupu a šifrovanie, avšak nie je tak široko podporovaný v iných systémoch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 27 Problematika natívneho formátu súboru.
+• Premyslite si a navrhnite Váš postup od výberu prostredia, použité nástroje v ňom, spôsoby
+uloženia, publikovanie obrázka uloženého v súbore „Nufak.png“. Nežiadame presne vedieť
+každý úkon potrebný pre získanie objektu, ale najmä popísať činnosti a nástroje, ktoré k tomu povedú. Uvažujte prípad tak vektorového ako aj rastrového grafického editora.
+• Prečo je vektorové kreslenie presnejšie, kvalitnejšie, pravdivejšie ako rastrové? Platí to
+univerzálne alebo viete uviesť jeden príklad, kde rastrové má prednosť?
+• Ktorý je natívny formát nasledujúcich grafických editorov: Skicár, Gimp, Zooner Callisto,
+CorelDRAW, Logomotion? Stačí uviesť pri 2 z nich. Ktoré z predchádzajúcich prostredí
+prináležia vektorovému a ktoré rastrovému grafickému prostrediu?
+
+Rastrový editor
+Zvolil by som prostredie, ktoré najčastejšie používam(v mojom prípade Paint.net). Medzi nástrojmi vyberiem nástroj „Shapes“ a ďalej vyberiem „Elipse“, vyberiem farbu a zvolím začiatočný bod na obrazovke, podržaním ľavého tlačidla viem meniť rozmery elipsy. Nástrojom „Paint Bucket“ viem zafarbiť vnútro elipsy. Máme rôzne spôsoby uloženie(PNG, JPEG, BMP...)
+Vektorový editor
+Zvolil by som prostredie, ktoré najčastejšie používam(v mojom prípade Inkscape). Medzi nástrojmi vyberiem nástroj „Elipse“  zvolím začiatočný bod na obrazovke, podržaním ľavého tlačidla viem meniť rozmery elipsy a ďalej vyberiem farbu. Máme rôzne spôsoby uloženie(SVG,PDF...)
+Vektorové kreslenie ukladá matematické vzorce útvarov, vďaka čomu sa kvalita obrázku nemení aj pri menení rozmerov. Rastrová grafika je lepšia pri digitálnych fotkách, keďže zachytáva každý pixel ako samostatná jednotku môže presnejšie zachytiť farbu a odtieň daného pixelu.
+Skicár – MSP
+GIMP – XCF
+Rastrové: Skicár, Gimp, Logomotion
+Vektorové: Zooner Callisto, CorelDraw, 
+
+
+
+
+ZADANIE 28 Formát A3. 
+• Navrhnite postup ako by ste vytvorili leták (plagát) vo formáte A3, t.j. šírka 42cm a výška  29,7cm. Použite na ilustráciu postupnosti svojich myšlienok predloženú upútavku  „iBobor.pdf“. 
+• Aké sú výhody a nevýhody rastrovej a vektorovej grafiky, vzhľadom k obrázkom veľkých  rozmerov/veľkého rozlíšenia? V čom je manipulácia s obrázkom vo formáte A3 iná ako s  bežnými rozmermi, ktoré má náš výstup?	 
+• Obrázok vložený do upútavky nemá priesvitné pozadie. Ktoré programy použijete, aby ste  túto chybu odstránili? Ako si osnovu práce pripravíte vo vzťahu k súborom, ktoré potrebujete  mať uložené (zálohované) až kým nevytvoríte výsledok? („iBobor_bez_obrazka.pdf“,  „obrazok.png“) 
+
+
+
+Vo Worde alebo programe jeho podobnému by som zvolil veľkosť strany ktorá vyhovuje mojim špecifikáciám. Vybral by som štylistické prevedenie textu a pridal obrázky (najlepšie vo formáte SVG pre udržanie kvality aj pri menení veľkosti obrázku) a pri výbere možnosti rozloženia obrázku by som vybral rozloženie pred textom aby som mohol voľne pohybovať s obrázkom bez narúšania textu. Na koniec by som dokument exportoval do PDF formátu, aby som zaručil, že dokument bude všade zobrazený rovnako.
+
+Výhoda vektorovej grafiky je ten, že pri menení veľkosti obrázku sa udržuje kvalita obrázku na rozdiel od rastrovej grafiky, ktorá sa stane rozmazanou. Toto je vďaka tomu, že  vektorová grafika funguje na základe matematických vzorcov a nie na základe ukladania informácií o špecifických pixeloch. Pri robení s väčšími rozmermi ako napríklad A3 treba dávať pozor na kvalitu obrázku, keďže chyby budú ľahšie viditeľné.
+Na odstránenie pozadia obrázku môžeme použiť mnoho programov, napríklad Adobe Photoshop, paint.net či Paint 3D. Najskôr si pripravím všetky súbory čo budem potrebovať do finálnej verzie a uložím ich do jedného priečinku pre lepšiu priehľadnosť, týmto aj zabránim prípadnému strateniu súborov. Potom dám všetko dokopy v jednom finálnom súbore.
+
+
+
+
+
+
+ZADANIE 29 Narábanie s obrázkami v malej farebnej hĺbke.
+Predstavte si, že máte čisto čierny, čisto biely a čiernobiely bitmapový obrázok, uložené vo
+formáte „bmp“, v 1-bitovej farebnej hĺbke a s tým istým rozlíšením (šírka, výška).
+• Zaberajú všetky 3 rovnakú veľkosť, a keď nie, aké je poradie od najmenšieho po najväčší? Čo viete o formáte „bmp“? Preveďte overenie Vašej odpovede na konkrétnych 3 súboroch, ten tretí, čiernobiely, uvažujte „Uloha_2_Pridane_3.bmp“?
+• Ako zdôvodníte rôznu veľkosť originálneho súboru „Uloha_2_Pridane_3.bmp“ a jeho
+zakódovanej podoby „Uloha_2_Pridane_3.txt“?
+• Čo sa stane, ak dáme v treťom čiernobielom obrázku odstrániť pozadie? V akom formáte
+uložíte výsledok, aby priesvitné pozadie zostalo zachované? Má akcia a spôsob uloženia
+vplyv na veľkosť výsledného súboru oproti „Uloha_2_Pridane_3.bmp“?
+	
+Obrázky zaberajú rovnaký priestor. Na zobrazenie bielej a čiernej farby potrebujeme jeden bit (biela=1, čierna=0), no ak chceme zobraziť iba bielu alebo iba čiernu stále potrebujeme jeden bit. BMP súbor je rastrový, bezstratový súbor, používa sa na ukladanie obrázkov s vysokou kvalitou.
+
+Ako som už spomínal, na uloženie bielej alebo čiernej farby stačí iba jeden bit, no na uloženie písmena sa použije minimálne jeden bajt (záleží na pozícií znaku v Unicode tabuľke), z toho dôvodu zaberá obrázok prevedený do textovej formy viac miesta, ako jeho originál.
+
+Samotné písmená nám hovoria aká  farba má byť kde. Rovnaké písmená by sme vedeli zlúčiť a na mieste kde sa 2 rôzne písmená stretávajú môžeme vytvoriť hranicu, nech vieme, kde presne sa nám farba mení. Takto by sme mohli vytvoriť napríklad detskú omaľovánku.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ZADANIE 30 Prechod do Windows 10. 
+• Predstavte si, že máte doterajšieho užívateľa OS Windows XP upozorniť na 3 najdôležitejšie  zmeny, ktoré ho pri prechode do Windows 10 čakajú. Ktoré by to boli? 
+• Predstavte si, že máte doterajšieho užívateľa desktopových zariadení pod OS Windows. Na  aké 3 vážne zmeny (odlišnosti) ho upozorníte pri prechode na smartfónové alebo tabletové  zariadenia s OS Android? Ktoré naopak automatiky (služby, programy, postupy) zostanú  zachované? 
+• Pri prenosných zariadeniach typu notebook je snahou výrobcov priblížiť sa možnostiam  smartfónu (malá hmotnosť, výdrž batérie bez napájania na dlhý časový úsek, tenká plocha  určená aj pre ľahšie ovládanie dotykom ...) ale aj desktopovému (zachovanie rozlíšenia  obrazovky, zmestenie sa čo najväčšieho množstva informácií pri zachovaní čitateľnosti ...) Vo  vzťahu k smartfónu, ktoré konektory zostali pri súčasných modeloch notebookov zachované,  ktoré ale vypadli vôbec, resp. boli modifikované?
+
+
+
+Prechod z Windows XP na Windows 10 prináša užívateľovi viacero významných zmien, ktoré ovplyvnia nielen vzhľad, ale aj funkčnosť a bezpečnosť systému.
+Windows 10 ponúka moderné užívateľské rozhranie s možnosťou personalizácie, integrovanú ochranu proti vírusom a malware, a automatické aktualizácie zabezpečujúce aktuálnosť systému. Nové aplikácie a integrácie, ako napríklad digitálny asistent Cortana a prehliadač Microsoft Edge, pridávajú nové funkcie a zlepšenia.
+
+
+Pri prechode z desktopových Windows na Android zariadenie užívateľ zažije úplne odlišnú platformu a ekosystém. Android ponúka väčšiu flexibilitu a prispôsobiteľnosť voči užívateľovi, s možnosťou úpravy vzhľadu a usporiadania obrazovky. Integrácia s Google službami a ekosystémom umožňuje jednoduchú synchronizáciu dát a používanie rôznych aplikácií.
+Pokiaľ ide o prenosné zariadenia typu notebook, ich design a funkcie sa vyvíjajú s cieľom kombinovať výhody smartfónov a desktopov. Zachované konektory zahŕňajú USB Type-C pre nabíjanie a prenos dát, 3,5 mm audio jack a HDMI porty. Klasické USB porty typu A, Ethernet porty a čítačky SD kariet môžu byť modifikované alebo vypustené v prospech zlepšenia mobilnosti a tenkosti zariadení.
+
